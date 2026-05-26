@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------common elements ------------- */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #02132F;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1.6;
+    letter-spacing: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    color: #02132F;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 43px;
+    line-height: 1.6;
+    letter-spacing: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+
+}
+
+h3 {
+    color: #02132F;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 1.6;
+    letter-spacing: 10px;
+    width: 100%;
+    text-align: left;
+
+}
+
+h4 {
+ font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 10px;
+    color: #fff;
+
+}
+
+h5 {
+     font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: 3px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 6px;
+}
+
+h6 {}
+
+p {}
+
+/* -----------common class----------- */
+.container {
+    max-width: 1460px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.container-full {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+}
+
+.col {
+    padding: 0 30px;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+/* --------------nav bar-------------------------------------------- */
+.navbar {
+    background-color: #021C49;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0px;
+
+}
+
+.navlinks ul {
+    display: flex;
+}
+
+.links {}
+
+.links ul li a {
+    color: white;
+    padding: 0 50px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+.nav_logo img {
+    width: 100px;
+}
+
+.primary-btn a {
+    background-color: #30A8DE;
+    color: white;
+    border-radius: 40px;
+    text-align: center
+}
+
+
+
+/* -----------------------Banner------------------- */
+.banner {
+
+    min-height: calc(100vh - 95px);
+    height: calc(100vh - 95px);
+    background-image: url('./images/Group\ 1707486365.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner_content {
+    /* align-items: center; */
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_text {
+    margin-bottom: 37px;
+}
+
+.banner-btn {
+    display: flex;
+
+}
+
+.primary-btn {
+    background-color: #30A8DE;
+    color: white;
+    padding: 18px 37px;
+    border-radius: 40px;
+    text-align: center
+}
+
+.secoundry-btn {
+    background: transparent;
+    color: black;
+    padding: 18px 37px;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center
+}
+
+/* ---------------------------about-------- */
+.about {
+    background-image: url('./images/Mask\ group.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 40px);
+    height: calc(100vh - 40px);
+    position: relative;
+}
+
+.top-label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-label p {
+    margin-top: 77px;
+    color: #02132F;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 10px;
+    max-width: 768px;
+}
+
+.card-text {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+.content-card {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    width: 46%;
+    background-color: #021C49;
+    border-radius: 25px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 42px;
+}
+
+.about-label {
+    font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: 3px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.card-title {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.read-more-btn {
+    display: inline-block;
+    background-color: #30A8DE;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 34px;
+}
+
+/* ----------service----------------- */
+.service-section {
+    background-color: #021C49;
+    /* height: 871px; */
+}
+
+.service {
+    padding: 95px 0;
+}
+
+.small-img {
+    width: 52px;
+    height: 52px;
+}
+
+.img1 {
+    background-color: #0744AE;
+    padding: 32px 35px;
+    border-radius: 20px;
+}
+
+.img2 {
+    margin-top: 29px;
+    background-color: #0744AE;
+    padding: 32px 35px;
+     border-radius: 20px;
+}
+
+.img1 p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.img1 a {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.tag {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.img2 p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.img2 a {
+    color: white;
+     font-family: "Lato", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.screvice-text{
+    margin-top: 109px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 18px;
+    line-height:1.8 ;
+    color: #fff;
+    max-width: 933px;
+}
+
+..screvice-text p{
+    margin-top: 16px;
+}
+
+.book{
+    color: #fff;
+    background:transparent;
+    border: 1px solid white;
+    margin-top: 31px;
+}
