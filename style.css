@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 /* -------------common elements ------------- */
@@ -67,7 +68,7 @@ h3 {
 }
 
 h4 {
- font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
     text-transform: uppercase;
     font-weight: 400px;
     font-style: normal;
@@ -79,7 +80,7 @@ h4 {
 }
 
 h5 {
-     font-size: 18px;
+    font-size: 18px;
     font-weight: 400px;
     letter-spacing: 3px;
     font-family: "Lato", sans-serif;
@@ -94,32 +95,32 @@ p {}
 
 /* -----------common class----------- */
 .container {
-    max-width: 1460px;
+    max-width: 1320px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 24px;
 }
 
 .container-full {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 24px;
 }
 
 .section-padding {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 95px;
+    padding-bottom: 50px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -30px;
+    margin: 0 -24px;
 }
 
 .col {
-    padding: 0 30px;
+    padding: 0 24px;
 }
 
 .col-70 {
@@ -179,11 +180,9 @@ nav {
     display: flex;
 }
 
-.links {}
-
 .links ul li a {
     color: white;
-    padding: 0 50px;
+    padding: 0 40px;
     font-size: 15px;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
@@ -205,13 +204,17 @@ nav {
 /* -----------------------Banner------------------- */
 .banner {
 
-    min-height: calc(100vh - 95px);
-    height: calc(100vh - 95px);
+    min-height: calc(100vh);
+    height: calc(100vh);
     background-image: url('./images/Group\ 1707486365.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.banner-cotainer {
     position: relative;
+
 }
 
 .banner_content {
@@ -219,8 +222,8 @@ nav {
     width: 100%;
     position: absolute;
     top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, 40%);
 }
 
 .banner_text {
@@ -255,8 +258,8 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: calc(100vh - 40px);
-    height: calc(100vh - 40px);
+    min-height: calc(100vh - 10px);
+    height: calc(100vh - 10px);
     position: relative;
 }
 
@@ -292,15 +295,17 @@ nav {
     position: relative;
     z-index: 2;
     margin-left: auto;
-    width: 46%;
+
+    width: 40%;
     background-color: #021C49;
     border-radius: 25px;
-    padding: 40px 30px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    margin-top: 42px;
+    margin-top: 20px;
+
 }
 
 .about-label {
@@ -335,13 +340,12 @@ nav {
     padding: 12px 28px;
     border-radius: 20px;
     width: fit-content;
-    margin-top: 34px;
+    margin-top: 20px;
 }
 
 /* ----------service----------------- */
 .service-section {
     background-color: #021C49;
-    /* height: 871px; */
 }
 
 .service {
@@ -363,7 +367,7 @@ nav {
     margin-top: 29px;
     background-color: #0744AE;
     padding: 32px 35px;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 
 .img1 p {
@@ -408,30 +412,119 @@ nav {
 
 .img2 a {
     color: white;
-     font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300px;
     font-style: normal;
     font-size: 16px;
 }
 
-.screvice-text{
+.screvice-text {
     margin-top: 109px;
     font-family: "Lato", sans-serif;
     font-weight: 300px;
     font-style: normal;
     font-size: 18px;
-    line-height:1.8 ;
+    line-height: 1.8;
     color: #fff;
     max-width: 933px;
 }
 
-..screvice-text p{
+.screvice-text p {
     margin-top: 16px;
+    color: #fff;
 }
 
-.book{
+.book {
     color: #fff;
-    background:transparent;
+    background: transparent;
     border: 1px solid white;
     margin-top: 31px;
 }
+
+/*--------------------- Review section------------------ */
+.Review-text {
+    text-align: center;
+    color: black;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.Review-text h5 {
+    color: black;
+}
+
+.Review-text h4 {
+    color: black;
+    padding: 14px 0;
+}
+
+.card1 {
+    padding: 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.card1 p {
+    max-width: 406px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.checked {
+    color: #FFC107;
+}
+
+.lower-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.potrait1 {
+    width: 50px;
+    height: auto;
+}
+
+.colone {
+    width: 100px;
+}
+
+.Review-btn{
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.leave-btn{
+    background-color: #30A8DE;
+}
+.view-btn{
+     background-color: #30A8DE;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 50px;   
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;    
+}
+.btn-filled {
+  color: #fff;
+     background-color: #30A8DE;
+  border: 1px solid  #30A8DE;
+}
+
+.btn-outline {
+  background: transparent;
+  color: black;
+  border: 2px solid black;
+}
+
